@@ -10,13 +10,11 @@ The application is also fully-responsive , the styles for the application are ma
 specifications
 This application uses a number of open source projects /packages to work properly:
 [ReactJS] - JS library to build interactive elements on website!
-[Redux] - To maintain state of application.
 [React-Query] - New hook to handle data fetching for protected routes (replica of gql-query)
-[Redux-persist] - To maintain state of application even after refresh(Note: the state is encrypted even though user data is not persisted).
-[Redux-form] - To handle forms data.
+[React-hooks] - let you hook into react state and lifecycle features from function components.
 [Node js] - evented I/O for the backend
 [Express Js] - fast node.js network app framework
-[GCP] - To store data objects / files.
+[Cloudinary] - To store data objects / files.
 [MongoDB] - To store data of the application.
 [SendGrid] - for mailing service.
 [JWT] for secured auth tokens
@@ -43,7 +41,6 @@ The application uses redux-saga to handle the side-effects.
 The application uses queue algorithm to store the reoccuring requests and to decide user-liking products.
 The app also supports redirects/refresh.
 The actions that are being dispatched are named with the place/file they are being dispatched.
-Redux-form is used for handling forms data. Help Page and some buttons are designed using material-Ui and other part of the app uses custom styles.
 The actions in the application are pure objects with logics/async calls inside them.
 The actions describes - what happened ,where it happened.
 Even the reducer contains the very simple logic
