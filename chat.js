@@ -6,7 +6,7 @@ const addUser = ({ id, name, room, image }) => {
     room = room.trim().toLowerCase();
   }
 
-  const user = { id, name, room, image };
+  const user = { id, name,  room, image };
   users.push(user);
 
   return { user };
